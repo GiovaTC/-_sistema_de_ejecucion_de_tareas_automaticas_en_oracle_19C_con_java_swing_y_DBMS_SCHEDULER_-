@@ -6,6 +6,8 @@
 
 <img width="2553" height="1079" alt="image" src="https://github.com/user-attachments/assets/01bd8a99-b4cc-4669-a50b-b8b22660ba34" />    
 
+<img width="2553" height="1073" alt="image" src="https://github.com/user-attachments/assets/d64bdaee-ec2f-45f5-84b6-b4a15401cc60" />    
+
 ```
 🧩 Arquitectura Propuesta
 📌 Capas
