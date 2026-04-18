@@ -11,19 +11,12 @@ COMMIT;
 --?? Procedimiento que crea y ejecuta el JOB
 CREATE OR REPLACE PROCEDURE EJECUTAR_TAREA_AUTOMATICA IS
 BEGIN
-    DBMS_SCHEDULER.CREATE_JOB (
-        job_name   => 'JOB_TAREA_' || TO_CHAR(SYSTIMESTAMP, 'YYYYMMDDHH24MISS'),
-        job_type   => 'PLSQL_BLOCK',
-        job_action => '
-            BEGIN
-                INSERT INTO TAREA_LOG (MENSAJE)
-                VALUES (''Tarea ejecutada desde Java'');
-                COMMIT;
-            END;',
-        start_date => SYSTIMESTAMP,
-        enabled    => TRUE
-    );
+    INSERT INTO TAREA_LOG (MENSAJE)
+    VALUES ('Ejecución directa sin scheduler');
+    COMMIT;
 END;
 /
 
 COMMIT;
+
+SELECT * FROM TAREA_LOG ORDER BY FECHA_EJECUCION DESC;
