@@ -1,6 +1,8 @@
 # -_sistema_de_ejecucion_de_tareas_automaticas_en_oracle_19C_con_java_swing_y_DBMS_SCHEDULER_- :.
 
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/9c886ab3-203d-4b7a-8aeb-63411ddd0137" />  
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/9c886ab3-203d-4b7a-8aeb-63411ddd0137" />    
+
+<img width="2544" height="1078" alt="image" src="https://github.com/user-attachments/assets/f820cb14-2aba-483b-97d3-41b0d6747d9f" />    
 
 ```
 🧩 Arquitectura Propuesta
