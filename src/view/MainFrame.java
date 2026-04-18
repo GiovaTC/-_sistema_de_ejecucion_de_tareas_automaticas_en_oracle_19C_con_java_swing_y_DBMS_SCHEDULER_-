@@ -32,6 +32,6 @@ public class MainFrame extends JFrame {
 
     private void ejecutarTarea() {
         service.ejecutar();
-        areaLog.append("✔ TAREA enviada a Oracle\n");   
+        areaLog.append("✔ TAREA enviada a Oracle\n");
     }
 }
